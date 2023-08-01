@@ -1,8 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: "img nombre nombre"
+                         "img desc desc"
+                         "img desc2 map";
+    padding: 10px;
+  }
+
+.nombre {
+    grid-area: nombre;
+}
+.desc{
+    grid-area: desc;
+}
+.img{
+    grid-area: img;
+}
+
+.map{
+    grid-area: map;
+}
+
 h1 {
     color:blue;
-    font-size:400%
+    font-size:600%;
+    font-family: 'Great Vibes', cursive;
 }
 
 h2 {
     color:aqua
 }
+
+* {background-color: black;}
