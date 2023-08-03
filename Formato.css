@@ -1,23 +1,34 @@
 .grid-container {
     display: grid;
-    grid-template-areas: "img nombre nombre"
-                         "img desc desc"
-                         "img desc2 map";
-    padding: 10px;
+    grid-template-areas: "nombre nombre nombre"
+                         "blanco desc desc"
+                         "blanco desc2 map"
+                         "blanco contacto map";
   }
 
+.blanco {
+    grid-area: blanco;
+}
 .nombre {
     grid-area: nombre;
+    text-align: center;
 }
 .desc{
     grid-area: desc;
 }
+.desc2{
+    grid-area: desc2;
+}
 .img{
     grid-area: img;
+    background-color: white
 }
 
 .map{
     grid-area: map;
+}
+.contacto{
+    grid-area: contacto;
 }
 
 h1 {
@@ -27,7 +38,8 @@ h1 {
 }
 
 h2 {
-    color:aqua
+    color:aqua;
+    text-align: left;
 }
 
 * {background-color: black;}
