@@ -1,4 +1,9 @@
 .grid-container {
+    background-color: black;
+    border-color: blue;
+    border-style: outset;
+    border-width: 5%;
+    padding: 1%;
     display: grid;
     grid-template-areas: "nombre nombre nombre"
                          "blanco desc desc"
@@ -41,5 +46,3 @@ h2 {
     color:aqua;
     text-align: left;
 }
-
-* {background-color: black;}
